@@ -11,6 +11,7 @@
 ///Phoron
 #define ATM_P		6
 #define ATM_N2O		7
+#define ATM_H2		8
 
 //--------------------------------------------
 // Omni port datum
@@ -105,5 +106,7 @@
 			return GAS_ID_PHORON
 		if(ATM_N2O)
 			return GAS_ID_NITROUS_OXIDE
+		if(ATM_H2)
+			return GAS_ID_HYDROGEN
 		else
 			return null
