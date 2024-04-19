@@ -49,6 +49,12 @@
 	container_type = /obj/structure/largecrate
 	contains = list(/obj/machinery/portable_atmospherics/canister/nitrogen)
 
+/datum/supply_pack/atmos/hydrogen_canister
+	name = "Hydrogen Canister"
+	cost = 40
+	container_name = "Nitrogen Canister Crate"
+	contains = list(/obj/machinery/portable_atmospherics/canister/)
+
 /datum/supply_pack/atmos/canister_phoron
 	name = "Phoron gas canister"
 	cost = 60

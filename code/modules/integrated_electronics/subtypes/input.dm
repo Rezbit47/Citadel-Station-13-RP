@@ -1493,6 +1493,7 @@ GLOBAL_DATUM_INIT(circuit_translation_context, /datum/translation_context/simple
 		"nitrogen"          = IC_PINTYPE_NUMBER,
 		"carbon dioxide"           = IC_PINTYPE_NUMBER,
 		"phoron"           = IC_PINTYPE_NUMBER,
+		"hydrogen"			= IC_PINTYPE_NUMBER,
 		"other"           = IC_PINTYPE_NUMBER
 	)
 	activators = list("scan" = IC_PINTYPE_PULSE_IN, "on scanned" = IC_PINTYPE_PULSE_OUT)

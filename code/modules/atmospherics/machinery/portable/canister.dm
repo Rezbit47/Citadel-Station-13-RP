@@ -48,6 +48,12 @@
 	canister_color = "redws"
 	can_label = 0
 
+/obj/machinery/portable_atmospherics/canister/hydrogen
+	name = "Canister: \[H2\]"
+	icon_state = "mintgreen"
+	canister_color = "mintgreen"
+	can_label = 0
+
 /obj/machinery/portable_atmospherics/canister/nitrogen
 	name = "Canister: \[N2\]"
 	icon_state = "red"
@@ -88,6 +94,10 @@
 	start_pressure = 0
 	can_label = 1
 
+/obj/machinery/portable_atmospherics/canister/empty/hydrogen
+	name = "canister: \[H2\]"
+	icon_state = "mintgreen"
+	canister_color = "mint_green"
 /obj/machinery/portable_atmospherics/canister/empty/oxygen
 	name = "Canister: \[O2\]"
 	icon_state = "blue"
@@ -359,6 +369,7 @@ update_flag
 					"\[N2O\]" = "redws", \
 					"\[N2\]" = "red", \
 					"\[O2\]" = "blue", \
+					"\[H2\]" = "mintgreen",
 					"\[Phoron\]" = "orange", \
 					"\[CO2\]" = "black", \
 					"\[Air\]" = "grey", \
