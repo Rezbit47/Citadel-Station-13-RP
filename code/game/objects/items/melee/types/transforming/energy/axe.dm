@@ -1,9 +1,10 @@
 
 /obj/item/melee/transforming/energy/axe
-	name = "energy axe"
-	desc = "An energised battle axe."
-	icon_state = "energy_axe"
-	base_icon_state = "energy_axe"
+	name = "Charge Axe"
+	desc = "A single edged power weapon with a thick cable running from the back of the blade to the central hilt."
+	icon = 'icons/items/melee/charge_axe.dmi'
+	icon_state = "charge_axe"
+	base_icon_state = "charge_axe"
 	damage_force = 20
 	throw_force = 10
 	throw_speed = 1
@@ -34,7 +35,7 @@
 	)
 
 /obj/item/melee/transforming/energy/axe/charge
-	name = "charge axe"
+	name = "charged axe"
 	desc = "An energised axe."
 	active_damage_force = 30
 	active_throw_force = 20
